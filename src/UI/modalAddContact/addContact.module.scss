@@ -1,0 +1,90 @@
+.modal {
+	&__contact {
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		background-color: rgba(89, 89, 89, 0.5);
+		top: 0;
+		left: 0;
+		transform: scale(0);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: all 0.5s;
+	}
+
+
+	&__title {
+		text-align: center;
+		font-size: 34px;
+		color: rgb(255, 255, 255);
+		padding-bottom: 20px;
+	}
+	&__content {
+		width: 350px;
+		min-height: 370px;
+		display: flex;
+		flex-direction: column;
+		background-color: rgba(87, 87, 87, 0.6);
+		border: solid 2px rgb(255, 255, 255, 0.5);
+		padding: 20px;
+		border-radius: 10px;
+
+	}
+	&__form {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+	}
+	&__button {
+		background-color: rgb(19, 109, 187);
+		margin-top: 40px;
+		padding: 5px 0px;
+		border-radius: 10px;
+	}
+	&__button:hover {
+		background-color: rgb(7, 55, 98);
+	}
+}
+
+
+.active {
+	transform: scale(1);
+ }
+
+
+ .form {
+	&__label {
+
+	}
+	&__input {
+	 height: 40px;
+	 border-radius: 10px;
+	 padding-left: 10px;
+	 color: black;
+	}
+ }
+
+
+ .modal__form {
+	&__error {
+		position: absolute;
+		bottom: 5%;
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		text-align: center;
+		background-color: rgb(244, 2, 2, 0.7);
+		padding: 10px 20px;
+		border-radius: 20px;
+		line-height: 35px;
+		box-shadow: 5px 5px 2px #5b0000;
+		transition: all 2s;
+
+		
+	}
+	&__message {
+		font-size: 24px;
+		color: rgb(208, 208, 208);
+		transition: all 2s;
+	}
+ }

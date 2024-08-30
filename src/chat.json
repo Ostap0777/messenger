@@ -1,0 +1,139 @@
+{
+	"users": [
+	  {
+		 "id": "user1",
+		 "name": "Іван",
+		 "email": "ivan@example.com",
+		 "chats": [
+			{
+			  "chatId": "chat1",
+			  "participants": ["user1", "user2"],
+			  "messages": [
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "Привіт, як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user2",
+					"receiver": "user1",
+					"message": "Добре, дякую! А у тебе?",
+					"timestamp": "2024-08-20T10:05:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user2",
+					"receiver": "user1",
+					"message": "Добре, дякую! А у тебе?",
+					"timestamp": "2024-08-20T10:05:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user2",
+					"receiver": "user1",
+					"message": "Добре, дякую! А у тебе?",
+					"timestamp": "2024-08-20T10:05:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user2",
+					"receiver": "user1",
+					"message": "Добре, дякую! А у тебе?",
+					"timestamp": "2024-08-20T10:05:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 },
+				 {
+					"sender": "user2",
+					"receiver": "user1",
+					"message": "Добре, дякую! А у тебе?",
+					"timestamp": "2024-08-20T10:05:00Z"
+				 },
+				 {
+					"sender": "user1",
+					"receiver": "user2",
+					"message": "як справи?",
+					"timestamp": "2024-08-20T10:00:00Z"
+				 }
+			  ]
+			}
+		 ]
+	  },
+	  {
+		"id": "user2",
+		"name": "Іван",
+		"email": "ivan@example.com",
+		"chats": [
+		  {
+			 "chatId": "chat2",
+			 "participants": ["user1", "user2"],
+			 "messages": [
+				{
+				  "sender": "user1",
+				  "receiver": "user2",
+				  "message": "Привіт, як справи?",
+				  "timestamp": "2024-08-20T10:00:00Z"
+				},
+				{
+				  "sender": "user2",
+				  "receiver": "user1",
+				  "message": "Добре, дякую! А у тебе?",
+				  "timestamp": "2024-08-20T10:05:00Z"
+				}
+			 ]
+		  }
+		]
+	 }
+	]
+ }
+ 

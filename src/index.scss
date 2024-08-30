@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+#root {
+	height: 100%;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: aliceblue;
+	background-image: linear-gradient(280deg, rgb(54, 0, 116),rgb(169, 155, 155));
+}
+button,
+input {
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+button {
+	cursor: pointer;
+	background-color: inherit;
+}
+
+
+[class*="__container"] {
+	margin: 0 auto;
+	padding: 0px 30px;
+}
+.wrapper {
+   position: relative;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ overflow: hidden;
+
+}
+
+
+.swiper-wrapper {
+	display: flex;
+}

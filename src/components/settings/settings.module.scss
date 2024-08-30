@@ -1,0 +1,75 @@
+.settings {
+	&__container {
+		display: flex;
+		min-height: 100%;
+	}
+	&__content {
+		margin-top: 50px;
+	
+		padding-left: 50px;
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+		padding-bottom: 50px;
+		}
+	&__account {
+		display: flex;
+		gap: 20px;
+
+	}
+	&__functionals {
+
+	}
+}
+.functionals {
+	&__items {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+		background-color: rgba(255, 255, 255, 0.1);
+		padding: 20px;
+
+		}
+}
+.functional {
+	&__item {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+	}
+	&__link {
+		font-size: 22px;
+	}
+	&__link:hover {
+		opacity: 0.5;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
+
+.account {
+	&__foto {
+		display: inline;
+		background-color: rgb(28, 145, 58);
+		padding: 20px 25px;
+		font-size: 24px;
+		border-radius: 50%;
+	}
+	&__info {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		}
+	&__name {
+		color: rgb(190, 190, 190);
+		font-size: 22px;
+		font-weight: 700;
+	}
+	&__tag {
+
+	}
+}
+
